@@ -1,0 +1,108 @@
+
+.product-container {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f0f0f0;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.product-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.input-field {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #f0f0f0;
+}
+
+    .input-field:focus {
+        outline: none;
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+.submit-button {
+    padding: 12px;
+    background: linear-gradient(to right, #00f5a0, #00d9f5);
+    border: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+    .submit-button:hover {
+        transform: scale(1.05);
+    }
+
+/* Table Styling */
+.product-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+    .product-table th, .product-table td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .product-table th {
+        background: rgba(255, 255, 255, 0.08);
+        font-weight: bold;
+    }
+
+    .product-table tr:nth-child(even) {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .product-table tr:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+.action-button {
+    background: linear-gradient(to right, #00f5a0, #00d9f5);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 4px;
+    transition: transform 0.2s;
+}
+
+    .action-button:hover {
+        transform: translateY(-2px);
+    }
